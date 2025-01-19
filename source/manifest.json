@@ -1,0 +1,21 @@
+{
+    "manifest_version": 1,
+    "version": "0.0.0",
+    "type": "APP",
+    "name": {
+      "en": "Bulk Update Plugin (IN DEVELOPMENT)"
+    },
+    "description": {
+      "en": "Adds bulk update functionality to kintone"
+    },
+    "icon": "image/check.png",
+    "homepage_url": {
+      "en": "https://github.com/Through-the-Trees/KintoneBulkUpdate"
+    },
+    "desktop": {
+      "js": [
+        "lib/kuc.min.js",
+        "js/desktop.js"
+      ]
+    }
+  }
